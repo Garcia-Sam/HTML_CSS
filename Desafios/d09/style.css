@@ -1,28 +1,5 @@
 @charset "UTF-8";
 
-.container{
-    display: inline-flex;
-    gap: 10px;
-}
-
-.card{
-    transition: 380ms ease-in-out;
-    background-color: white;
-}
-
-.card + .card{
-    margin-left: -1px;
-}
-
-.card:hover{
-    transform: rotate(-3deg);
-}
-
-.card:hover ~ .card{
-    z-index: 1;
-    translate: 20px;
-}
-
 body{
     background-color: black;
 }
